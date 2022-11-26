@@ -5,9 +5,14 @@
   font-family: 'Lato', sans-serif;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
+ *::selection{
+  background-color: #472347;
+  color: #f4e5f1;
+ }
 
 body{
   width: 100%;
